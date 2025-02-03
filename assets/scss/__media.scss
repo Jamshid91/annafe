@@ -1,0 +1,458 @@
+@media (max-width: 1350px) {
+  main {
+    .story {
+      .ice-cream {
+        width: 250px;
+      }
+      .illustration {
+        width: 200px;
+        bottom: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1250px) {
+  main {
+    .advantages {
+      .ice-cream {
+        width: 80%;
+      }
+      .circle-text {
+        width: 15%;
+      }
+      &-item {
+        .item {
+          &-line {
+            max-width: 120px;
+          }
+          &-text {
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+
+    .contact {
+      &-info {
+        min-width: 360px;
+        margin-right: 20px;
+      }
+    }
+
+    .request {
+      .ice-cream {
+        width: 40%;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .title-text {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .header {
+    padding: 4px 0;
+    .logo img {
+      width: 80px;
+    }
+    &-nav {
+      display: none;
+    }
+    &-phone {
+      display: none;
+    }
+  }
+
+  main {
+    .banner {
+      margin: 24px 0 50px;
+      &-box {
+        padding: 50px 30px;
+        border-radius: 16px;
+        .title-text {
+          width: 85%;
+          br {
+            display: none;
+          }
+        }
+        .info-text {
+          margin: 12px 0 20px;
+          width: 66%;
+        }
+      }
+    }
+
+    .company {
+      position: relative;
+      padding-top: 50px;
+      .container {
+        flex-direction: column;
+      }
+      .title-text {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      &-img {
+        width: 50%;
+      }
+      &-text {
+        margin-top: 25px;
+      }
+    }
+
+    .catalog {
+      margin: 50px 0;
+      .strawberry {
+        top: 85%;
+        left: 0;
+        width: 150px;
+      }
+    }
+
+    .advantages {
+      .title-text {
+        font-size: 26px;
+        line-height: 32px;
+      }
+      &-box {
+        margin-top: 30px;
+      }
+    }
+
+    .partner {
+      margin-top: -150px;
+      &-item {
+        flex-direction: column;
+        .item-icon {
+          margin: 0 0 20px;
+        }
+        .item-title {
+          text-align: center;
+        }
+      }
+    }
+
+    .story {
+      background-size: cover;
+      &-box {
+        .logo {
+          top: 43%;
+        }
+      }
+      &-item {
+        padding-left: 30px;
+      }
+    }
+    
+
+    .request {
+      overflow: hidden;
+      .ice-cream {
+        width: 60%;
+        right: -20%;
+      }
+    }
+
+    .whereBy {
+      &-box {
+        flex-direction: column;
+        margin-top: 25px;
+      }
+      .search-box {
+        margin: 0 0 20px 0;
+        min-width: 100%;
+      }
+      .map {
+        height: 350px;
+      }
+    }
+  }
+
+  .footer {
+    padding-top: 30px;
+    &-box {
+      flex-direction: column;
+    }
+    &-nav {
+      margin: 20px 0;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  main {
+    .advantages {
+      &-item {
+        .item {
+          &-line {
+            display: none;
+          }
+          &:nth-child(2) {
+            top: 20%;
+          }
+        }
+      }
+    }
+
+    .contact {
+      .container {
+        flex-direction: column;
+      }
+      &-info {
+        min-width: 100%;
+        margin-right: 0;
+        margin-bottom: 32px;
+      }
+      .info-link {
+        .link:last-child {
+          margin-top: 15px !important;
+        }
+      }
+      &-map {
+        height: 250px;
+      }
+    }
+
+    .request {
+      margin: 70px 0 50px;
+      overflow: hidden;
+      &-form {
+        width: 90%;
+        position: relative;
+        z-index: 3;
+      }
+      .info-text {
+        width: 70%;
+      }
+      .ice-cream {
+        width: 50%;
+        right: -20%;
+        top: 0;
+        transform: none;
+      }
+    }
+  }
+
+  .popUp {
+    &-content {
+      width: 90%;
+      padding: 40px 20px;
+    }
+    .strawberrys {
+      width: 130px;
+      right: -30px;
+      bottom: -60px;
+    }
+    .check-box {
+      input {
+        min-width: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+
+  main {
+    .banner {
+      &-box {
+        padding: 30px 20px;
+        border-radius: 16px;
+        background-position: 80%;
+        .title-text {
+          width: 100%;
+        }
+        .info-text {
+          width: 80%;
+        }
+      }
+    }
+
+    .company {
+      &-img {
+        width: 80%;
+      }
+      &-text {
+        font-size: 35px;
+      }
+    }
+
+    .catalog {
+      background-size: cover;
+      padding: 70px 0 50px;
+      margin: 50px 0;
+      .container {
+        padding-right: 0;
+      }
+      .swiper-btns {
+        .prev,
+        .next {
+          display: none;
+        }
+      }
+    }
+
+    .advantages {
+      .ice-cream {
+        width: 130%;
+        margin-left: 0;
+      }
+      .circle-text {
+        width: 120px;
+        right: 0;
+      }
+      &-box {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+      }
+      &-item {
+        margin-top: -180px;
+        .item {
+          justify-content: start !important;
+          align-items: center !important;
+          flex-direction: row !important;
+          position: relative;
+          left: 0 !important;
+          right: 0 !important;
+          width: auto;
+          margin-bottom: 20px;
+          &-line {
+            display: none;
+          }
+          &-icon {
+            margin-bottom: 0 !important;
+          }
+          &-text {
+            font-size: 18px;
+            line-height: 26px;
+            br {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .partner {
+      margin-top: 50px;
+      &-item {
+        flex-direction: column;
+        .item-icon {
+          margin: 0 0 20px;
+        }
+        .item-title {
+          text-align: center;
+        }
+      }
+    }
+
+    .story {
+      margin: 50px 0;
+      .title-text {
+        position: relative;
+        z-index: 3;
+      }
+      .blueberries {
+        top: 20px;
+        right: 0;
+      }
+      .illustration {
+        width: 150px;
+        bottom: 20px;
+      }
+      &-box {
+        grid-template-columns: repeat(1, 1fr);
+        .logo {
+          display: none;
+        }
+      }
+      &-item {
+        padding: 30px;
+        min-height: auto;
+        &:nth-child(4) {
+          .item-text {
+            width: 80%;
+          }
+        }
+      }
+    }
+
+    .request {
+      padding: 50px 0;
+      overflow: hidden;
+      &-form {
+        width: 90%;
+        position: relative;
+        z-index: 3;
+        flex-direction: column;
+        .input-box {
+          width: 100%;
+        }
+        .request-submit {
+          width: 100%;
+          margin-top: 20px;
+        }
+        
+      .check-box {
+        font-size: 12px;
+        input {
+          min-width: 16px;
+        }
+      }
+      }
+      .info-text {
+        width: 70%;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      .ice-cream {
+        width: 60%;
+        right: -20%;
+        top: 0;
+        transform: none;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 50px;
+    .logo img {
+      width: 90px;
+    }
+    &-box {
+      flex-direction: column;
+    }
+    &-nav {
+      margin: 20px 0;
+      width: 100%;
+      flex-wrap: wrap;
+      li {
+        width: 50%;
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .popUp {
+    .request-form .input-box {
+      width: 100%;
+    }
+    .request-form .request-submit {
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+
+}
+
+
