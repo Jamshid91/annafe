@@ -1531,6 +1531,9 @@ main .whereBy .map-img {
     width: 50%;
     margin-bottom: 8px;
   }
+  .footer-nav li:hover::before {
+    display: none;
+  }
   .popUp .request-form .input-box {
     width: 100%;
   }
